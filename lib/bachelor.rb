@@ -51,7 +51,6 @@ def get_average_age_for_season(data, season)
       season_info.each do |contestant|
         age_array = contestant.collect { |category, info|
           info.to_i if category == "age" }
-      binding.pry
       end
     end
   end
