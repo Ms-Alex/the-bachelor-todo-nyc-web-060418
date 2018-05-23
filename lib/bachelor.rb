@@ -2,9 +2,10 @@ require 'pry'
 
 def get_first_name_of_season_winner(data, season)
   # code here
-  data.each do |season_num, info|
+  data.each do |season_num, season_info|
     if season == season_num
-      
+      season_info.each do | contestant, info| 
+        binding.pry
   end
 end
 
