@@ -51,5 +51,8 @@ def get_average_age_for_season(data, season)
       if season_num == season
         age_array = contestant["age"].collect { |num_str|
           num_str.to_i }
+      end
+    end
+  end
   binding.pry    
 end
